@@ -29,7 +29,7 @@ This project is part of Harvard's CS50 Web Programming with Python and JavaScrip
    ```sh
    python manage.py migrate
    ```
-5. **Load sample data (optional)**:
+5. **Load sample data (optional)**: (Can also load data using Django admin panel)
    ```sh
    python manage.py shell
    >>> from flights.models import Flight, Airport
